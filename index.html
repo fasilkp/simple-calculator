@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6840cdb2db.js" crossorigin="anonymous"></script>
+    <!-- <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/fontawesome.min.css"> -->
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="output">
+            <input type="text" id="screen2" disabled>
+            <input type="text" id="screen" disabled>
+        </div>
+        <div class="btns">
+            <button class="btn btn1" onclick="clearScr()">C</button>
+            <button class="btn btn2" onclick="calculate('(')">(</button>
+            <button class="btn btn18" onclick="calculate(')')">)</button>
+            <button class="btn btn19" onclick="calculate('+')">+</button>
+        
+        
+            <button class="btn btn3" onclick="calculate(7)">7</button>
+            <button class="btn btn4" onclick="calculate(8)">8</button>
+            <button class="btn btn5" onclick="calculate(9)">9</button>
+            <button class="btn btn6" onclick="calculate('-')">-</button>
+        
+            <button class="btn btn7" onclick="calculate(4)">4</button>
+            <button class="btn btn8" onclick="calculate(5)">5</button>
+            <button class="btn btn9" onclick="calculate(6)">6</button>
+            <button class="btn btn10" onclick="calculate('*')">x</button>
+        
+            <button class="btn btn11" onclick="calculate(1)">1</button>
+            <button class="btn btn12" onclick="calculate(2)">2</button>
+            <button class="btn btn13" onclick="calculate(3)">3</button>
+            <button class="btn btn14" onclick="calculate('/')">/</button>
+        
+            <button class="btn btn15" onclick="calculate(0)">0</button>
+            <button class="btn btn16" onclick="calculate('.')">.</button>
+            <button class="backBtn" onclick="back()"><i class="fas fa-backspace"></i></button>
+            <button class="btn btn17" onclick="equalTo()">=</button>
+        </div>
+    
+</div>
+<script src="script.js"></script>
+</body>
+</html>
